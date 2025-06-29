@@ -50,10 +50,6 @@ src/
 │ │ └── home.html
 │ └── application.properties
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 How to Run
@@ -62,19 +58,19 @@ Edit
 ```bash
 git clone https://github.com/satapathytanmay/spring-security-login-register.git
 cd spring-security-login-register
+
 2️⃣ Configure MySQL in application.properties:
-properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/security_db
 spring.datasource.username=root
 spring.datasource.password=your_mysql_password
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+
 3️⃣ Run the app:
 bash
 mvn spring-boot:run
+
 4️⃣ Access in your browser:
 📄 Registration: http://localhost:8080/register
 
